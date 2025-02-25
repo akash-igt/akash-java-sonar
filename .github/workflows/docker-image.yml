@@ -17,5 +17,5 @@ jobs:
           docker run --rm -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli \
             -Dsonar.projectKey=akash-java-sonar \
             -Dsonar.sources=. \
-            -Dsonar.host.url=http://13.232.4.242:9000 \
+            -Dsonar.host.url=http://13.232.4.242:9091 \
             -Dsonar.login=sqp_a8dfbba39540625458a16134c0d016eb3c6a80f5
